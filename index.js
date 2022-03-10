@@ -11,8 +11,10 @@ app.use(cors());
 const userRouter = require("./routes/User");
 app.use("/", userRouter);
 
+const port = process.env.port || 3000;
+
 db.sequelize.sync().then(() => {
-    app.listen(3030, () => {
+    app.listen(port, () => {
         console.log("GymWebpage");
     });
 })
