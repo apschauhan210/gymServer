@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
+  "engines" : { 
+    "npm" : ">=6.14.14",
+    "node" : ">=14.17.5"
+  },
   "author": "Anuj Pratap Singh",
   "license": "ISC",
   "dependencies": {
