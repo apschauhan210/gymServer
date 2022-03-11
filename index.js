@@ -11,7 +11,7 @@ app.use(cors());
 const userRouter = require("./routes/User");
 app.use("/", userRouter);
 
-const port = process.env.port || 3000;
+const port = process.env.port || 8080;
 
 db.sequelize.sync().then(() => {
     app.listen(port, () => {
