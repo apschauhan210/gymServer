@@ -8,8 +8,8 @@
     "start": "nodemon index.js"
   },
   "engines" : { 
-    "npm" : ">=6.14.14",
-    "node" : ">=14.17.5"
+    "npm" : ">=7.0.0",
+    "node" : ">=16.0.0"
   },
   "author": "Anuj Pratap Singh",
   "license": "ISC",
